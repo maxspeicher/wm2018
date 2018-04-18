@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="./parallax.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand" rel="stylesheet" />
+        <style>
+            /* TACHYONS OVERWRITES */
+
+            /* None so far ... */
+
+            /* MY STUFF */
+
+            body {
+                color: #eee;
+                font-family: Quicksand, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            h1, h2 {
+                font-family: "Josefin Sans", sans-serif;
+                font-weight: 400;
+                letter-spacing: .5em;
+            }
+
+            .container-full-screen {
+                height: 100vh;
+                width: 100%;
+            }
+
+            .container-full-screen-inner {
+                left: 50%;
+                position: absolute;
+                text-align: center;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+            }
+
+            .minsk {
+                height: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-full-screen" data-parallax="scroll" data-bleed="10" data-image-src="./img/dm2014.jpg" data-natural-height="682" data-natural-width="1024">
+            <header class="container-full-screen-inner mw-100">
+                <h1 class="f1 ttu">Maximilian Speicher</h1>
+                <h2 class="f3 ttu">
+                    Ringtennis-Nationalspieler<br />
+                    VfL 1901 e.V. Wehbach
+                </h2>
+            </header>
+        </div>
+        <div class="bg-red pa5 tc">
+            <h1 class="f1 ttu">Sponsoren</h1>
+            <div class="dib measure-wide mw-100">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+        <div class="container-full-screen" data-parallax="scroll" data-bleed="10" data-image-src="./img/wm2014.jpg" data-natural-height="900" data-natural-width="1200">
+        </div>
+        <div class="bg-near-black pa5 tc">
+            <h1 class="f1 ttu">Erfolge</h1>
+            <div class="mw9 center">
+                <div class="cf">
+                    <div class="tl fl w-100 w-third-ns ph4">
+                        <div class="f1 bb bw1 b--near-white">2&times;</div>
+                        <div class="mt3">Team-Weltmeister</div>
+                    </div>
+                    <div class="tl fl w-100 w-third-ns ph4">
+                        <div class="f1 bb bw1 b--near-white">2&times;</div>
+                        <div class="mt3">Team-Weltmeister</div>
+                    </div>
+                    <div class="tl fl w-100 w-third-ns ph4">
+                        <div class="f1 bb bw1 b--near-white">2&times;</div>
+                        <div class="mt3">Team-Weltmeister</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-full-screen" data-parallax="scroll" data-bleed="10" data-image-src="./img/minsk.jpg" data-natural-height="1536" data-natural-width="2048">
+        </div>
+        <div class="bg-red pa5 tc">
+            <h1 class="f1 ttu">Kontakt</h1>
+        </div>
+    </body>
+</html>
